@@ -9,6 +9,6 @@ services:
   nginx:
     image: nginx:alpine
     ports:
-      - "80:80"
+      - "8082:80"
     depends_on:
       - fastapi
